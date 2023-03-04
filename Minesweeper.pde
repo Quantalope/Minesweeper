@@ -32,7 +32,6 @@ public void setMines(int n)
     {
       int r = (int)(Math.random()*20);
       int c = (int)(Math.random()*20);
-      System.out.println(r + ", " + c);
       if(mines.contains(buttons[r][c])||buttons[r][c].clicked)
         i--;
       else
